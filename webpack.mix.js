@@ -17,7 +17,7 @@ mix.js('resources/js/app.js', 'public/js')
     	'public/theme/css/agency.css'
     ], 'public/css/tlsi.css')
     .scripts([
-    	'node_modules/jquery-easing/jquery.easing.js',
+    	'node_modules/jquery.easing/jquery.easing.js',
     	'public/theme/js/jqBootstrapValidation.js',
     	'public/theme/js/contact_me.js',
     	'public/theme/js/agency.js'

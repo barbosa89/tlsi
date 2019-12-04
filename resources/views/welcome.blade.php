@@ -3,9 +3,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
     <title>{{ config('app.name') }}</title>
+    <link href="{{ asset('theme/images/icon.png') }}" rel="shortcut icon" type="image/x-icon">
+    <link rel="canonical" href="{{ config('app.url') }}">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Transportes logísticos y servicios de ingeniería S.A.S.">
+
     <link rel="stylesheet" type="text/css" href="{{ mix('css/app.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ mix('css/tlsi.css') }}">
 </head>
@@ -13,7 +18,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">TLSI</a>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">{{ config('app.name') }}</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i class="fas fa-bars"></i>
@@ -55,11 +60,11 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading text-uppercase">Servicios</h2>
-                    <h3 class="section-subheading text-muted">Transporte terrestre con experiencia.</h3>
+                    <h3 class="section-subheading text-muted">Transporte terrestre e ingeniería con experiencia.</h3>
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
                     <i class="fas fa-truck-moving fa-stack-1x fa-inverse"></i>
@@ -67,23 +72,42 @@
                     <h4 class="service-heading">Carga líquida y seca</h4>
                     <p class="text-muted">Transporte de hidrocarburos en tractocamión con tanque, maquinaria y equipo en tractocamión con cama baja.</p>
                 </div>
-                <div class="col-md-3">
+
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fas fa-shuttle-van fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Busetas</h4>
+                    <p class="text-muted">Transporte del personal (operativo y administrativo) en busetas.</p>
+                </div>
+                <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
                     <i class="fas fa-truck-pickup fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Transporte especial</h4>
-                    <p class="text-muted">Movilización de personal en camionetas y busetas.</p>
+                    <h4 class="service-heading">Camionetas</h4>
+                    <p class="text-muted">Movilización de personal staff y logística operativa.</p>
                 </div>
-                <div class="col-md-3">
+            </div>
+            <div class="row text-center mt-4">
+                <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fas fa-tractor fa-stack-1x fa-inverse"></i>
+                    <i class="fas fa-cogs fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Maquinaria</h4>
                     <p class="text-muted">Suministramos maquinaria de construcción, línea amarilla o pesada.</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fas fa-hard-hat fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Ingeniería</h4>
+                    <p class="text-muted">Asesorías  en ingeniería civil y ambiental, PMA, MMA y EIA, formulación y evaluación de proyectos.</p>
+                </div>
+                <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
                     <i class="fas fa-road fa-stack-1x fa-inverse"></i>
@@ -115,7 +139,7 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4>Tractocamión</h4>
-                        <p class="text-muted">Cama bajas</p>
+                        <p class="text-muted">Cama bajas y tanques</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -125,11 +149,11 @@
                                 <i class="fas fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="theme/images/portfolio/truck-2.jpg" alt="">
+                        <img class="img-fluid" src="theme/images/portfolio/bus.jpg" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Tractocamión</h4>
-                        <p class="text-muted">Tanques</p>
+                        <h4>Busetas</h4>
+                        <p class="text-muted">Vans - Micro</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -153,11 +177,11 @@
                                 <i class="fas fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="theme/images/portfolio/bus.jpg" alt="">
+                        <img class="img-fluid" src="theme/images/portfolio/machinery.jpg" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Busetas</h4>
-                        <p class="text-muted">Vans - Micro</p>
+                        <h4>Maquinaria</h4>
+                        <p class="text-muted">Línea amarilla</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -167,11 +191,11 @@
                                 <i class="fas fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="theme/images/portfolio/machinery.jpg" alt="">
+                        <img class="img-fluid" src="theme/images/portfolio/engineer.jpg" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Maquinaria</h4>
-                        <p class="text-muted">Línea amarilla</p>
+                        <h4>Ingeniería</h4>
+                        <p class="text-muted">Asesorías, formulación y evaluación</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -196,7 +220,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading text-uppercase">Conoce TLSI</h2>
+                    <h2 class="section-heading text-uppercase">Conoce {{ config('app.name') }}</h2>
                     <h3 class="section-subheading text-muted">Nuestra historia.</h3>
                 </div>
             </div>
@@ -209,11 +233,11 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                    <h4>2019-2020</h4>
+                                    <h4 class="subheading">Rumbo a la consolidación</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">Han sido años duros pero con mucho aprendizaje, los cuales nos han permitido perfeccionar nuestra operación. Lo más importante ha sido la satisfacción de nuestros clientes y aliados, es por ello que para el 2020 queremos ser una empresa líder en el transporte de carga líquida y seca en el mercado nacional, con un alto grado de confiabilidad y honestidad, resaltando el compromiso por contribuir y aportar al desarrollo de nuestro país.!</p>
                                 </div>
                             </div>
                         </li>
@@ -223,47 +247,19 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
+                                    <h4>Año 2017</h4>
+                                    <h4 class="subheading">Inicia el sueño</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="rounded-circle img-fluid" src="theme/images/about/3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">Un día cualquiera, estábamos tomando un café, con muchas ganas e ilusiones de emprender pero sin saber en qué cosa, de repente surgió una idea simple: Formaremos parte del desarrollo industrial de nuestra región ofreciendo el mejor servicio de transporte, seremos los aliados en logística por excelencia. Así surgió Transportes logísticos y servicios de ingeniería S.A.S.!</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="rounded-circle img-fluid" src="theme/images/about/4.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!
+                                <h4>Se parte
+                                    <br>de nuestra
+                                    <br>Historia!
                                 </h4>
                             </div>
                         </li>
@@ -277,16 +273,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">Nuestro equipo</h2>
+                    <h3 class="section-subheading text-muted">Talento, experiencia y amistad.</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="theme/images/team/1.jpg" alt="">
-                        <h4>Kay Garland</h4>
-                        <p class="text-muted">Lead Designer</p>
+                        <h4>Nancy Martínez</h4>
+                        <p class="text-muted">Gerente</p>
                         <ul class="list-inline social-buttons">
                             <li class="list-inline-item">
                                 <a href="#">
@@ -309,8 +305,8 @@
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="theme/images/team/2.jpg" alt="">
-                        <h4>Larry Parker</h4>
-                        <p class="text-muted">Lead Marketer</p>
+                        <h4>VLADIMIR BECERRA </h4>
+                        <p class="text-muted">Subgerente</p>
                         <ul class="list-inline social-buttons">
                             <li class="list-inline-item">
                                 <a href="#">
@@ -332,9 +328,9 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="theme/images/team/3.jpg" alt="">
-                        <h4>Diana Pertersen</h4>
-                        <p class="text-muted">Lead Developer</p>
+                        <img class="mx-auto rounded-circle" src="theme/images/team/2.jpg" alt="">
+                        <h4>Néstor Atehortúa</h4>
+                        <p class="text-muted">Jefe de transporte</p>
                         <ul class="list-inline social-buttons">
                             <li class="list-inline-item">
                                 <a href="#">
@@ -357,7 +353,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                    <p class="large text-muted">"Juntarse es un comienzo. Seguir juntos es un progreso. Trabajar juntos es un éxito." -  Henry Ford</p>
                 </div>
             </div>
         </div>
@@ -368,22 +364,22 @@
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <a href="#">
-                    <img class="img-fluid d-block mx-auto" src="theme/images/logos/envato.jpg" alt="">
+                    <img class="img-fluid d-block mx-auto" src="theme/images/logos/ecopetrol.png" alt="">
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <a href="#">
-                    <img class="img-fluid d-block mx-auto" src="theme/images/logos/designmodo.jpg" alt="">
+                    <img class="img-fluid d-block mx-auto" src="theme/images/logos/berau.png" alt="">
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <a href="#">
-                    <img class="img-fluid d-block mx-auto" src="theme/images/logos/themeforest.jpg" alt="">
+                    <img class="img-fluid d-block mx-auto" src="theme/images/logos/gtec.jpg" alt="">
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <a href="#">
-                    <img class="img-fluid d-block mx-auto" src="theme/images/logos/creative-market.jpg" alt="">
+                    <img class="img-fluid d-block mx-auto" src="theme/images/logos/mt.jpeg" alt="">
                     </a>
                 </div>
             </div>
@@ -394,8 +390,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">Contacto</h2>
+                    <h3 class="section-subheading text-white">Escríbenos y hagamos equipo.</h3>
                 </div>
             </div>
             <div class="row">
@@ -404,28 +400,28 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
+                                    <input class="form-control" id="name" type="text" placeholder="Tu nombre *" required="required" data-validation-required-message="Por favor ingresa tu nombre.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                    <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
+                                    <input class="form-control" id="email" type="email" placeholder="Tu correo *" required="required" data-validation-required-message="Por favor ingresa tu dirección de correo electrónico">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
+                                    <input class="form-control" id="phone" type="tel" placeholder="Tu teléfono *" required="required" data-validation-required-message="Por favor ingreso tu número telefónico">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                                    <textarea class="form-control" id="message" placeholder="Tu mensaje *" required="required" data-validation-required-message="El mensaje lo puedes escribir aquí"></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Enviar mensaje</button>
                             </div>
                         </div>
                     </form>
@@ -438,36 +434,52 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Your Website 2019</span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li class="list-inline-item">
+                    <h4>Dirección</h4>
+                    <ul class="list-inline social-buttons" id="phones-numbers">
+                        <li>
                             <a href="#">
-                            <i class="fab fa-twitter"></i>
+                                <i class="fas fa-map-marker"></i> Carrera 7 No. 15 - 56 
                             </a>
                         </li>
-                        <li class="list-inline-item">
+                        <li>
                             <a href="#">
-                            <i class="fab fa-facebook-f"></i>
+                                <i class="fas fa-map-marked"></i> Barrio El Centro
                             </a>
                         </li>
-                        <li class="list-inline-item">
+                        <li>
                             <a href="#">
-                            <i class="fab fa-linkedin-in"></i>
+                                <i class="fas fa-map"></i> San Martín, Cesar, Colombia
                             </a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li class="list-inline-item">
-                            <a href="#">Privacy Policy</a>
+                    <h4>Teléfonos</h4>
+                    <ul class="list-inline social-buttons" id="phones-numbers">
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-mobile"></i> 317 642 4421
+                            </a>
                         </li>
-                        <li class="list-inline-item">
-                            <a href="#">Terms of Use</a>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-mobile-alt"></i> 314 248 9988
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-mobile"></i> 315 506 2562
+                            </a>
                         </li>
                     </ul>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid" src="{{ asset('theme/images/logo.png') }}"></img>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-12">
+                    <span class="copyright">Derechos de autor &copy; {{ config('app.name') }} {{ date('Y') }} - Powered by <a href="https://omarbarbosa.com">Omar Barbosa</a></span>
                 </div>
             </div>
         </div>
@@ -487,18 +499,13 @@
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <h2 class="text-uppercase">Tractocamión</h2>
+                                <p class="item-intro text-muted">Cama bajas y tanques.</p>
                                 <img class="img-fluid d-block mx-auto" src="theme/images/portfolio/truck.jpg" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
-                                </ul>
+                                <p>Nos especializamos en transporte de carga seca utilizando tractocamiones con cama baja, contamos con personal altamente entrenado y experimentado en izaje de cargas. Apoyamos el desarrollo de la industria petrolera de la región, para lo cual contamos con tractocamiones con tanque para el transporte de hidrocarburos, lámina de acero al carbon y acero inoxidable, los cuales están equipados con elementos contra incendio y anti derrame, operamos bajo protocolos y estándares de seguridad.!</p>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                 <i class="fas fa-times"></i>
-                                Close Project</button>
+                                Cerrar</button>
                             </div>
                         </div>
                     </div>
@@ -520,18 +527,13 @@
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="theme/images/portfolio/truck-2.jpg" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Explore</li>
-                                    <li>Category: Graphic Design</li>
-                                </ul>
+                                <h2 class="text-uppercase">Busetas</h2>
+                                <p class="item-intro text-muted">Vans - Micro.</p>
+                                <img class="img-fluid d-block mx-auto" src="theme/images/portfolio/bus.jpg" alt="">
+                                <p>El transporte del personal es un aspecto fundamental, garantizamos los desplazamientos con busetas dotadas de todos los elementos de seguridad, y personal idóneo al volante, entendemos la alta responsabilidad de este ejercicio.!</p>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                 <i class="fas fa-times"></i>
-                                Close Project</button>
+                                Cerrar</button>
                             </div>
                         </div>
                     </div>
@@ -553,18 +555,13 @@
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <h2 class="text-uppercase">Camionetas</h2>
+                                <p class="item-intro text-muted">Pickups.</p>
                                 <img class="img-fluid d-block mx-auto" src="theme/images/portfolio/pickup.jpg" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Finish</li>
-                                    <li>Category: Identity</li>
-                                </ul>
+                                <p>Somos aliados en el desarrollo de las operaciones de las empresas del sector, para ello contamos con camionetas pickup, dotadas con los elementos necesarios en la seguridad vial, nuestros conductores están capacitados en manejo defensivo y buenas practicas.!</p>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                 <i class="fas fa-times"></i>
-                                Close Project</button>
+                                Cerrar</button>
                             </div>
                         </div>
                     </div>
@@ -586,18 +583,13 @@
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="theme/images/portfolio/bus.jpg" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Lines</li>
-                                    <li>Category: Branding</li>
-                                </ul>
+                                <h2 class="text-uppercase">Maquinaria</h2>
+                                <p class="item-intro text-muted">Línea amarilla.</p>
+                                <img class="img-fluid d-block mx-auto" src="theme/images/portfolio/machinery.jpg" alt="">
+                                <p>Suministramos toda la maquinaria necesaria para llevar a cabo construcciones y mantenimientos de infraestructuras: Bulldozer, retroexcavadora y retrocargador, motoniveladora, vibrocompactadores, cargadores, montacargas, minicargador, telehandler, y demás.!</p>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                 <i class="fas fa-times"></i>
-                                Close Project</button>
+                                Cerrar</button>
                             </div>
                         </div>
                     </div>
@@ -619,18 +611,13 @@
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="theme/images/portfolio/aux.jpg" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Southwest</li>
-                                    <li>Category: Website Design</li>
-                                </ul>
+                                <h2 class="text-uppercase">Ingeniería</h2>
+                                <p class="item-intro text-muted">Asesorías, formulación y evaluación.</p>
+                                <img class="img-fluid d-block mx-auto" src="theme/images/portfolio/engineer.jpg" alt="">
+                                <p>Servicios en el área de ingeniería civil y ambiental, brindando asesorías en la elaboración de PMA, MMA y EIA , formulación y evaluación de proyectos viales, diseños de pavimentos flexibles y rígidos, asesorías en ensayos de laboratorio de pavimentos, suelos y geotecnia. También apoya la logística en la operación y mantenimiento de vías, implementación de medición de indicadores, mantenimiento de infraestructuras como vías, obras de arte y de estructuras de contención.!</p>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                 <i class="fas fa-times"></i>
-                                Close Project</button>
+                                Cerrar</button>
                             </div>
                         </div>
                     </div>
@@ -652,18 +639,13 @@
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="theme/images/portfolio/06-full.jpg" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Window</li>
-                                    <li>Category: Photography</li>
-                                </ul>
+                                <h2 class="text-uppercase">Auxiliares viales</h2>
+                                <p class="item-intro text-muted">Logística en carreteras.</p>
+                                <img class="img-fluid d-block mx-auto" src="theme/images/portfolio/aux.jpg" alt="">
+                                <p>Apoyamos las operaciones en las vías de la región, suministrando personal para el control del tráfico en construcciones y mantenimientos, movilizaciones, y demás.!</p>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                 <i class="fas fa-times"></i>
-                                Close Project</button>
+                                Cerrar</button>
                             </div>
                         </div>
                     </div>
@@ -674,5 +656,16 @@
 
     <script type="text/javascript" src="{{ mix('js/app.js') }}"></script>
     <script type="text/javascript" src="{{ mix('js/tlsi.js') }}"></script>
+    <script type="application/ld+json" async>
+        {
+            "@context": "http://schema.org/",
+            "@type": "WebSite",
+            "name": "TLSI S.A.S.",
+            "alternateName": "Transportes logísticos y servicios de ingeniería S.A.S.",
+            "url": "https://tlsi.com.co",
+            "image": "{{ asset('images/site.png') }}",
+            "description": "{{ trans('page.description') }}"
+        }
+    </script>
 </body>
 </html>
