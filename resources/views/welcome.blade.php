@@ -3,13 +3,20 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ config('app.name') }}</title>
+    <title>{{ config('app.name') }} - Transportes logísticos y servicios de ingeniería</title>
     <link href="{{ asset('theme/images/icon.png') }}" rel="shortcut icon" type="image/x-icon">
     <link rel="canonical" href="{{ config('app.url') }}">
 
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="Empresa de transporte, carga líquida y seca, suministro de busetas, camionetas, maquinaria, auxiliares viales, y servicios de ingeniería en asesoría, formulación y evaluación de proyectos.">
+    <meta name="keywords" content="empresa, transporte, carga, carga líquida, carga seca, cama baja, camabaja, camionetas, busetas, maquinaria, auxiliares viales, ingeniería civil, ingeniería ambiental, asesoría, formulación, evaluación, proyectos, infraestructura, obras, PMA, MMA, EIA">
     <meta name="author" content="Transportes logísticos y servicios de ingeniería S.A.S.">
+
+    <meta property="og:title" content="Transportes logísticos y servicios de ingeniería S.A.S.">
+    <meta property="og:description" content="Empresa de transporte, carga líquida y seca, suministro de busetas, camionetas, maquinaria, auxiliares viales, y servicios de ingeniería en asesoría, formulación y evaluación de proyectos.">
+    <meta property="og:image" content="{{ asset('theme/images/logo.png') }}">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tlsi.com.co/">
+    <meta property="og:site_name" content="TLSI">
 
     <link rel="stylesheet" type="text/css" href="{{ mix('css/app.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ mix('css/tlsi.css') }}">
@@ -58,6 +65,9 @@
     <section class="page-section" id="services">
         <div class="container">
             <div class="row">
+                <div class="col-lg-12 text-center mb-4">
+                    <h1 class="section-heading text-uppercase">Transportes logísticos y servicios de ingeniería S.A.S.</h1>
+                </div>
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading text-uppercase">Servicios</h2>
                     <h3 class="section-subheading text-muted">Transporte terrestre e ingeniería con experiencia.</h3>
@@ -233,11 +243,11 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>2019-2020</h4>
-                                    <h4 class="subheading">Rumbo a la consolidación</h4>
+                                    <h4>Año 2017</h4>
+                                    <h4 class="subheading">Inicia el sueño</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Han sido años duros pero con mucho aprendizaje, los cuales nos han permitido perfeccionar nuestra operación. Lo más importante ha sido la satisfacción de nuestros clientes y aliados, es por ello que para el 2020 queremos ser una empresa líder en el transporte de carga líquida y seca en el mercado nacional, con un alto grado de confiabilidad y honestidad, resaltando el compromiso por contribuir y aportar al desarrollo de nuestro país.!</p>
+                                    <p class="text-muted">Un día cualquiera, estábamos tomando un café, con muchas ganas e ilusiones de emprender pero sin saber en qué cosa, de repente surgió una idea simple: Formaremos parte del desarrollo industrial de nuestra región ofreciendo el mejor servicio de transporte, seremos los aliados en logística por excelencia. Así surgió Transportes logísticos y servicios de ingeniería S.A.S.!</p>
                                 </div>
                             </div>
                         </li>
@@ -247,11 +257,11 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>Año 2017</h4>
-                                    <h4 class="subheading">Inicia el sueño</h4>
+                                    <h4>2019-2020</h4>
+                                    <h4 class="subheading">Rumbo a la consolidación</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Un día cualquiera, estábamos tomando un café, con muchas ganas e ilusiones de emprender pero sin saber en qué cosa, de repente surgió una idea simple: Formaremos parte del desarrollo industrial de nuestra región ofreciendo el mejor servicio de transporte, seremos los aliados en logística por excelencia. Así surgió Transportes logísticos y servicios de ingeniería S.A.S.!</p>
+                                    <p class="text-muted">Han sido años duros pero con mucho aprendizaje, los cuales nos han permitido perfeccionar nuestra operación. Lo más importante ha sido la satisfacción de nuestros clientes y aliados, es por ello que para el 2020 queremos ser una empresa líder en el transporte de carga líquida y seca en el mercado nacional, con un alto grado de confiabilidad y honestidad, resaltando el compromiso por contribuir y aportar al desarrollo de nuestro país.!</p>
                                 </div>
                             </div>
                         </li>
@@ -305,7 +315,7 @@
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="theme/images/team/2.jpg" alt="">
-                        <h4>VLADIMIR BECERRA </h4>
+                        <h4>Vladimir Becerra</h4>
                         <p class="text-muted">Subgerente</p>
                         <ul class="list-inline social-buttons">
                             <li class="list-inline-item">
@@ -374,12 +384,12 @@
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <a href="#">
-                    <img class="img-fluid d-block mx-auto" src="theme/images/logos/gtec.jpg" alt="">
+                    <img class="img-fluid d-block mx-auto" src="theme/images/logos/gtec.png" alt="">
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <a href="#">
-                    <img class="img-fluid d-block mx-auto" src="theme/images/logos/mt.jpeg" alt="">
+                    <img class="img-fluid d-block mx-auto" src="theme/images/logos/mt.png" alt="">
                     </a>
                 </div>
             </div>
@@ -433,7 +443,7 @@
     <footer class="footer">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-4">
+                <div class="col-md-4 mb-4">
                     <h4>Dirección</h4>
                     <ul class="list-inline social-buttons" id="phones-numbers">
                         <li>
@@ -453,7 +463,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-4">
                     <h4>Teléfonos</h4>
                     <ul class="list-inline social-buttons" id="phones-numbers">
                         <li>
@@ -473,7 +483,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-4">
                     <img class="img-fluid" src="{{ asset('theme/images/logo.png') }}"></img>
                 </div>
             </div>
@@ -663,8 +673,8 @@
             "name": "TLSI S.A.S.",
             "alternateName": "Transportes logísticos y servicios de ingeniería S.A.S.",
             "url": "https://tlsi.com.co",
-            "image": "{{ asset('images/site.png') }}",
-            "description": "{{ trans('page.description') }}"
+            "image": "{{ asset('theme/images/logo.png') }}",
+            "description": "Empresa de transporte, carga líquida y seca, suministro de busetas, camionetas, maquinaria, auxiliares viales, y servicios de ingeniería en asesoría, formulación y evaluación de proyectos."
         }
     </script>
 </body>
