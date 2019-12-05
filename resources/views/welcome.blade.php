@@ -483,7 +483,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4 py-3">
                     <img class="img-fluid" src="{{ asset('theme/images/logo.png') }}"></img>
                 </div>
             </div>
