@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::post('/contact', 'ContactController@sendMessage')
+	->name('contact')
+	->middleware(['sanitize', 'guest']);
