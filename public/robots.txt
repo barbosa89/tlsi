@@ -1,2 +1,3 @@
+Sitemap: https://www.tlsi.com.co/sitemap.xml
 User-agent: *
 Disallow:
