@@ -126,7 +126,7 @@
                     <i class="fas fa-road fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Auxiliares viales</h4>
-                    <p class="text-muted">Suministro de personal para el apoyo de la logística en las operaciones viales: Controlar el flujo vehicular.</p>
+                    <p class="text-muted">Suministro de personal para el apoyo de la logística en las operaciones viales: Control de flujo vehicular.</p>
                 </div>
             </div>
         </div>
