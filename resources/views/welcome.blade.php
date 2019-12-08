@@ -100,7 +100,7 @@
                     <i class="fas fa-truck-pickup fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Camionetas</h4>
-                    <p class="text-muted">Movilización de personal staff y logística operativa.</p>
+                    <p class="text-muted">Movilización de personal y logística operativa.</p>
                 </div>
             </div>
             <div class="row text-center mt-4">
@@ -110,7 +110,7 @@
                     <i class="fas fa-cogs fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Maquinaria</h4>
-                    <p class="text-muted">Suministramos maquinaria de construcción, línea amarilla o pesada.</p>
+                    <p class="text-muted">Suministro de maquinaria de construcción, línea amarilla o pesada.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -126,7 +126,7 @@
                     <i class="fas fa-road fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Auxiliares viales</h4>
-                    <p class="text-muted">Suministramos personal para el apoyo de la logística en las operaciones viales, para controlar el flujo vehicular.</p>
+                    <p class="text-muted">Suministro de personal para el apoyo de la logística en las operaciones viales: Controlar el flujo vehicular.</p>
                 </div>
             </div>
         </div>
@@ -250,7 +250,7 @@
                                     <h4 class="subheading">Inicia el sueño</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">TRANSPORTES LOGÍSTICOS Y SERVICIOS DE INGENIERÍA S.A.S , es una empresa de transporte creada el 17 de septiembre de 2017, que surge con el fin de cubrir las necesidades de movilidad de las empresas contratistas y de comunidad de San Martín – Cesar y de sus zona aledañas en donde se ejecutan proyectos del sector de hidrocarburos, logrando posicionarse como una empresa líder, con un alto compromiso, responsabilidad social  y ambiental que durante años ha servido como soporte fundamental  para las partes interesadas en transportar a sus colaboradores, con la certeza de que han contratado un servicio de calidad, con la experiencia necesaria para cumplir con los requerimientos exigidos, buscando siempre optimizar sus servicios. Formaremos parte del desarrollo industrial de nuestra región ofreciendo el mejor servicio de transporte, seremos los aliados en logística por excelencia.</p>
+                                    <p class="text-muted">TRANSPORTES LOGÍSTICOS Y SERVICIOS DE INGENIERÍA S.A.S , es una empresa de transporte creada el 17 de septiembre de 2017, que surge con el fin de cubrir las necesidades de movilidad de las empresas contratistas y de comunidad de San Martín – Cesar y de sus zonas aledañas en donde se ejecutan proyectos del sector de hidrocarburos, logrando posicionarse como una empresa líder, con un alto compromiso, responsabilidad social  y ambiental que ha servido como soporte fundamental  para las partes interesadas en transportar a sus colaboradores, con la certeza de que han contratado un servicio de calidad, con la experiencia necesaria para cumplir con los requerimientos exigidos, buscando siempre optimizar sus servicios. Formaremos parte del desarrollo industrial de nuestra región ofreciendo el mejor servicio de transporte, seremos los aliados en logística por excelencia.</p>
                                 </div>
                             </div>
                         </li>
@@ -530,7 +530,7 @@
                                 <h2 class="text-uppercase">Maquinaria</h2>
                                 <p class="item-intro text-muted">Línea amarilla.</p>
                                 <img class="img-fluid d-block mx-auto" src="theme/images/portfolio/machinery.jpg" alt="">
-                                <p>Suministramos toda la maquinaria necesaria para llevar a cabo construcciones y mantenimientos de infraestructuras: Bulldozer, retroexcavadora y retrocargador, motoniveladora, vibrocompactadores, cargadores, montacargas, minicargador, telehandler, y demás.!</p>
+                                <p>Suministro de toda la maquinaria necesaria para llevar a cabo construcciones y mantenimientos de infraestructuras: Bulldozer, retroexcavadora y retrocargador, motoniveladora, vibrocompactadores, cargadores, montacargas, minicargador, telehandler, y demás.!</p>
                                 <button class="btn btn-primary btn-green" data-dismiss="modal" type="button">
                                 <i class="fas fa-times"></i>
                                 Cerrar</button>
