@@ -34,7 +34,7 @@ class ContactController extends Controller
         Mail::to($request->email)
             ->send(new ContactMessage($request));
 
-        if (Mail::send()) {
+        if (count(Mail::failures()) > 0) {
             return response('Error al enviar copia de comunicación', 500)
                 ->header('Content-Type', 'text/plain');
         } else {
@@ -42,7 +42,7 @@ class ContactController extends Controller
                 ->cc('subgerente@tlsi.com.co')
                 ->send(new ContactMessage($request));
 
-            if (Mail::send()) {
+            if (count(Mail::failures()) > 0) {
                 return response('El mensaje no fue enviado', 500)
                     ->header('Content-Type', 'text/plain');
             }
