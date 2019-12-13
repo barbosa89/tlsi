@@ -310,7 +310,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <a href="#">
-                    <img class="img-fluid d-block mx-auto" src="theme/images/logos/berau.png" alt="">
+                    <img class="img-fluid d-block mx-auto" src="theme/images/logos/bureau.png" alt="">
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
@@ -382,8 +382,8 @@
                 <div class="col-md-3 mb-4">
                     <h4>Dirección</h4>
                     <ul class="list-group list-group-flush text-left">
-                        <li class="list-group-item"><i class="fas fa-map-marker"></i> Carrera 7 No. 15 - 56</li>
-                        <li class="list-group-item"><i class="fas fa-map-marked"></i> Barrio El Centro</li>
+                        <li class="list-group-item"><i class="fas fa-map-marker"></i> Calle 12 No. 6A-15</li>
+                        <li class="list-group-item"><i class="fas fa-map-marked"></i> Barrio Villa Nueva</li>
                         <li class="list-group-item"><i class="fas fa-map"></i> San Martín, Cesar, Colombia</li>
                     </ul>
                 </div>
