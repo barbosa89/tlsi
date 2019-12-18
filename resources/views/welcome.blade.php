@@ -28,7 +28,9 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">{{ config('app.name') }}</a>
+            <a class="navbar-brand js-scroll-trigger" style="width: 130px" href="#page-top">
+                <img class="img-fluid" src="{{ asset('theme/images/logo.png') }}" alt="TLSI">
+            </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i class="fas fa-bars"></i>
@@ -303,24 +305,68 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
+                <div class="col-md-3 col-sm-6 mt-4">
+                    <a>
                     <img class="img-fluid d-block mx-auto" src="theme/images/logos/ecopetrol.png" alt="">
                     </a>
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
+                <div class="col-md-3 col-sm-6 mt-4">
+                    <a>
                     <img class="img-fluid d-block mx-auto" src="theme/images/logos/bureau.png" alt="">
                     </a>
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
+                <div class="col-md-3 col-sm-6 mt-4">
+                    <a>
                     <img class="img-fluid d-block mx-auto" src="theme/images/logos/gtec.png" alt="">
                     </a>
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
+                <div class="col-md-3 col-sm-6 mt-4">
+                    <a>
                     <img class="img-fluid d-block mx-auto" src="theme/images/logos/mt.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 mt-4">
+                    <a>
+                    <img class="img-fluid d-block mx-auto" src="theme/images/logos/ca.png" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 mt-4">
+                    <a>
+                    <img class="img-fluid d-block mx-auto" src="theme/images/logos/copower.png" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 mt-4">
+                    <a>
+                    <img class="img-fluid d-block mx-auto" src="theme/images/logos/independece.png" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 mt-4">
+                    <a>
+                    <img class="img-fluid d-block mx-auto" src="theme/images/logos/insergroup.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 mt-4">
+                    <a>
+                    <img class="img-fluid d-block mx-auto" src="theme/images/logos/locargo.png" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 mt-4">
+                    <a>
+                    <img class="img-fluid d-block mx-auto" src="theme/images/logos/multiservicios.png" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 mt-4">
+                    <a>
+                    <img class="img-fluid d-block mx-auto" src="theme/images/logos/sgi.png" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 mt-4">
+                    <a>
+                    <img class="img-fluid d-block mx-auto" src="theme/images/logos/t.png" alt="">
                     </a>
                 </div>
             </div>
