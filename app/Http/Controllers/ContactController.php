@@ -20,7 +20,7 @@ class ContactController extends Controller
     {
         $validator = Validator::make($request->all(), [
             'name' => 'required|string|max:80',
-            'email' => 'required|email',
+            'email' => 'required|email:rfc,strict,dns,spoof,filter',
             'phone' => 'required|string|max:10',
             'message' => 'required|string|max:255',
             'recaptcha' => 'recaptcha'
