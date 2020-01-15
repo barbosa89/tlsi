@@ -230,6 +230,93 @@
             </div>
         </div>
     </section>
+    <!-- Policies -->
+    <section class="page-section" id="policies">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Políticas de {{ config('app.name') }}</h2>
+                    <h3 class="section-subheading text-muted">Estamos comprometidos</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4 text-center font-weight-bold">
+                    <div class="policy">
+                        <a href="#" class="btn text-success" data-toggle="modal" data-target="#policy1">
+                            <i class="fas fa-file-contract fa-border fa-5x d-block my-4"></i>
+                        </a>
+                        <div class="d-block policy-text">
+                            <a href="#" class="btn" data-toggle="modal" data-target="#policy1">
+                                <p class="text-dark">Política del sistema integrado de gestión</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 text-center font-weight-bold">
+                    <div class="policy">
+                        <a href="#" class="btn text-info"  data-toggle="modal" data-target="#policy2">
+                            <i class="fas fa-glass-cheers fa-border fa-5x d-block my-4"></i>
+                        </a>
+                        <div class="d-block policy-text">
+                            <a href="#" class="btn" data-toggle="modal" data-target="#policy2">
+                                <p class="text-dark">Política de no alcohol, no drogas, no armas</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 text-center font-weight-bold">
+                    <div class="policy">
+                        <a href="#" class="btn text-danger" data-toggle="modal" data-target="#policy3">
+                            <i class="fas fa-traffic-light fa-5x fa-border d-block my-4"></i>
+                        </a>
+                        <div class="d-block policy-text">
+                            <a href="#" class="btn" data-toggle="modal" data-target="#policy3">
+                                <p class="text-dark">Política de seguridad vial</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4 text-center font-weight-bold">
+                    <div class="policy">
+                        <a href="#" class="btn text-warning" data-toggle="modal" data-target="#policy4"">
+                            <i class="fas fa-car-crash fa-5x fa-border d-block my-4"></i>
+                        </a>
+                        <div class="d-block policy-text">
+                            <a href="#" class="btn" data-toggle="modal" data-target="#policy4"">
+                                <p class="text-dark">Política del uso del cinturón de seguridad</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 text-center font-weight-bold">
+                    <div class="policy">
+                        <a href="#" class="btn text-secondary" data-toggle="modal" data-target="#policy5">
+                            <i class="fas fa-user-clock fa-5x fa-border d-block my-4"></i>
+                        </a>
+                        <div class="d-block policy-text">
+                            <a href="#" class="btn" data-toggle="modal" data-target="#policy5">
+                                <p class="text-dark">Política de regulación de horas de conducción y descanso</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 text-center font-weight-bold">
+                    <div class="policy">
+                        <a href="#" class="btn text-dark" data-toggle="modal" data-target="#policy6">
+                            <i class="fas fa-mobile-alt fa-5x fa-border d-block my-4"></i>
+                        </a>
+                        <div class="d-block policy-text">
+                            <a href="#" class="btn" data-toggle="modal" data-target="#policy6">
+                                <p class="text-dark">Política de no uso de equipos de comunicaciones móviles mientras se labora</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- About -->
     <section class="page-section" id="about">
         <div class="container">
@@ -633,6 +720,185 @@
                                 <p class="item-intro text-muted">Logística en carreteras.</p>
                                 <img class="img-fluid d-block mx-auto" src="theme/images/portfolio/aux.jpg" alt="">
                                 <p>Apoyamos las operaciones en las vías de la región, suministrando personal para el control del tráfico en construcciones y mantenimientos, movilizaciones, y demás.!</p>
+                                <button class="btn btn-primary btn-green" data-dismiss="modal" type="button">
+                                <i class="fas fa-times"></i>
+                                Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Policy Modals -->
+    <!-- Policy 1 -->
+    <div class="portfolio-modal modal fade" id="policy1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2 class="text-uppercase">Política del sistema integrado de gestión</h2>
+                                <p class="text-justify">TRANSPORTES LOGÍSTICOS Y SERVICIOS DE INGENIERÍA SAS “TLSI SAS”, es una empresa dedicada al transporte especial de pasajeros, transporte de carga seca y liquida por carretera, suministro y alquiler de maquinaria y equipos para izaje, siendo sostenible y responsable que se encuentra plenamente comprometida en la satisfacción de las necesidades de sus clientes, la salud y seguridad de sus trabajos, de su personal y el cuidado del medio ambiente; identificando, valorando y controlando peligros y riesgos; bajo estricto cumplimiento de los requisitos legales, las normas ambientales y de seguridad, promoviendo la calidad de vida laboral, evitando la enfermedad laboral, los accidentes de trabajo, el daño a la propiedad, los impactos y daños socio ambientales, incrementando la competencia del talento humano, manteniendo comunicación abierta y efectiva con sus grupos de apoyo y partes interesadas, mejorando continuamente sus procesos y servicios.</p>
+                                <button class="btn btn-primary btn-green" data-dismiss="modal" type="button">
+                                <i class="fas fa-times"></i>
+                                Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Policy 2 -->
+    <div class="portfolio-modal modal fade" id="policy2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2 class="text-uppercase">Política de no alcohol, no drogas y no armas</h2>
+                                <p class="text-justify">En TRANSPORTES LOGÍSTICOS Y SERVICIOS DE INGENIERÍA SAS “TLSI SAS”, se reconoce que tanto el alcoholismo, como la drogadicción son problemas de salud pública, por lo cual son susceptibles a tratamiento y prevención. En consecuencia: Se prohíbe el ingreso, comercialización, y consumo de alcohol, drogas y tabaco dentro de la empresa o al interior de vehículos, parqueaderos o locaciones de trabajo del cliente, se prohíbe ingresar a laborar bajo efectos de alcohol, drogas alucinógenas o tabaco y el ingreso de todo tipo de armas convencionales, no convencionales o artesanales a la empresa o al interior de vehículos, parqueaderos o locaciones de trabajo del cliente. La empresa se reserva el derecho de la realización de pruebas de alcohol, requisas, inspecciones a los trabajadores, sin previo aviso, con el fin del cumplimiento de esta política, así las personas que se nieguen a realizarlas se tomaran como incumplimiento a la política y representa un acto causal de terminación del contrato de trabajo, sin previo aviso o reposición.</p>
+                                <button class="btn btn-primary btn-green" data-dismiss="modal" type="button">
+                                <i class="fas fa-times"></i>
+                                Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Policy 3 -->
+    <div class="portfolio-modal modal fade" id="policy3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2 class="text-uppercase">Política seguridad vial</h2>
+                                <p class="text-justify">TRANSPORTES LOGÍSTICOS Y SERVICIOS DE INGENIERÍA SAS “TLSI SAS”, es una empresa dedicada al transporte especial de pasajeros, transporte de carga seca y liquida por carretera, suministro y alquiler de maquinaria y equipos para izaje, por lo cual reconoce que el riesgo vial es nuestra mayor preocupación, por lo cual: se garantizan las acciones para la selección y evaluación de conductores, se desarrollan programas de capacitación y entrenamiento para prevenir siniestros viales, se incentiva el respeto por las normas de tránsito, los límites de velocidad y la adopción de hábitos seguros en las vías, se garantizan las condiciones técnico mecánicas y de seguridad de los vehículos para la prestación del servicio, se analizan e identifican los riesgos viales asociados a las operaciones, se promueve la prevención de la fatiga en la conducción y otras situaciones que aumenten la materialización de riesgo. A su vez: se prohíbe el uso de equipos de comunicación bidireccionales, el consumo de comidas, bebidas mientras se efectúen labores de conducción; los vehículos no tendrán en el vidrio panorámico ningún tipo de sticker, afiche, calcomanía u cualquier otro distractor; y se prohíben las bromas o actos de riesgo mientras se conduce. Esta Política ofrece un marco de referencia para lograr el objetivo del Plan Estratégico de Seguridad Vial y es de obligatorio cumplimiento para conductores propios y terceros, quienes deben seguir los lineamientos establecidos. La Gerencia destinará los recursos financieros, tecnológicos y talento humano necesario para garantizar la mejora continua de la Seguridad Vial en las operaciones de transporte terrestre. Por lo anterior cuando el conductor, el vehículo o las condiciones de trabajo, incumplan estándares de seguridad se suspenderá la operación hasta tanto no se implementen los correctivos, y se mantendrán los registros necesarios que permitan su trazabilidad.</p>
+                                <button class="btn btn-primary btn-green" data-dismiss="modal" type="button">
+                                <i class="fas fa-times"></i>
+                                Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Policy 4 -->
+    <div class="portfolio-modal modal fade" id="policy4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2 class="text-uppercase">Política uso del cinturón de seguridad</h2>
+                                <p class="text-justify">TRANSPORTES LOGÍSTICOS Y SERVICIOS DE INGENIERÍA SAS “TLSI SAS”, está comprometida con la promoción y prevención de siniestros viales por lo que es obligatorio el uso del cinturón de seguridad por parte del conductor y por los pasajeros ubicados en los asientos delanteros o traseros del vehículo, en todas las vías del territorio nacional incluyendo las urbanas, de acuerdo a la normatividad vigente Código Nacional de Tránsito. TRANSPORTES LOGÍSTICOS Y SERVICIOS DE INGENIERÍA SAS “TLSI SAS”, promoverá el uso de cinturón de seguridad a todo el personal tanto administrativo como operativo. Teniendo en cuenta que este reduce en gran manera el riesgo de lesiones al momento de un accidente vial. El conductor debe utilizar el cinturón de seguridad siempre que conduzca un vehículo por corto que sea el trayecto y es responsable por cada uno de los ocupantes del vehículo para que lo usen de manera apropiada, segura y en todo momento. Para asegurar el cumplimiento del mencionado se realizara acciones permanentes vinculadas con la capacitación y el entrenamiento en sus trabajadores, las que se materializarán a través de: Charlas, Cursos, Instrucciones en el buen uso de este elementos y Evaluaciones, entre otras actividades, con personal idóneo y calificado, los que formarán parte del que hacer normal de la empresa y de su personal durante la jornada de conducción, de igual en acompañamiento con las inspecciones de nuestros coordinadores de operaciones y de nuestras empresas clientes.</p>
+                                <button class="btn btn-primary btn-green" data-dismiss="modal" type="button">
+                                <i class="fas fa-times"></i>
+                                Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Policy 5 -->
+    <div class="portfolio-modal modal fade" id="policy5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2 class="text-uppercase">Política de regulación de horas de conducción y descanso</h2>
+                                <p class="text-justify">TRANSPORTES LOGÍSTICOS Y SERVICIOS DE INGENIERÍA SAS “TLSI SAS”, mediante la adopción de esta política, la organización busca garantizar un óptimo desempeño de sus operaciones dentro del marco de la seguridad vial e industrial. Igualmente, dentro de esta política se implementará la práctica de pausas activas como una medida obligatoria para promover y regular el adecuado descanso de los conductores. En consecuencia, los programas que se implementen bajo esta política deberán:</p>
+                                <ol class="text-justify">
+                                    <li>Establecer tiempos de reposo y descanso para prevenir la fatiga.</li>
+                                    <li>Establecer pausas activas cada 2 horas. (Ejercicios de estiramiento).</li>
+                                    <li>Establecer esquemas de seguimiento sobre el cumplimiento de los tiempos de reposo y pausas a los conductores que realicen actividad en recorridos largos.</li>
+                                    <li>Incluir temas de capacitación sobre hábitos de sueño y descanso, nutrición y ejercicio los cuales pueden prevenir la fatiga en los trabajadores.</li>
+                                    <li>Evaluar en caso de accidente o incidente de trabajo la probabilidad de causalidad por la fatiga.</li>
+                                </ol>
+                                <p class="text-justify">Para el cumplimiento de la política, la Gerencia General asigna los recursos financieros, humanos y técnicos necesarios, será un compromiso de los trabajadores.</p>
+                                <button class="btn btn-primary btn-green" data-dismiss="modal" type="button">
+                                <i class="fas fa-times"></i>
+                                Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Policy 6 -->
+    <div class="portfolio-modal modal fade" id="policy6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2 class="text-uppercase">Política de no uso de equipos de comunicaciones móviles mientras se labora</h2>
+                                <p class="text-justify">El uso de equipos de comunicación está prohibido mientras se conduce un vehículo ya sea de la empresa y/o propio, operado por los trabajadores suministrados por TRANSPORTES LOGÍSTICOS Y SERVICIOS DE INGENIERÍA SAS “TLSI SAS”. o cuando se realizan labores de controlador vial. Los siguientes son los requisitos mínimos de operación:</p>
+                                <ul class="text-justify">
+                                    <li>El uso de teléfonos móviles, dispositivos de manos libres, asistentes digitales personales, dispositivos de mano, tabletas, dispositivos convergentes, dispositivos de mensajes de texto, audífonos, computadoras y otros dispositivos electrónicos móviles, (ya sea de otra persona o de propiedad de la empresa (TRANSPORTES LOGISTICOS Y SERVICIOS DE INGENIERÍA SAS “TLSI SAS”), está prohibido su uso cuando el vehículo está en movimiento.</li>
+                                    <li>El uso de teléfonos móviles, dispositivos de manos libres, asistentes digitales personales, dispositivos de mano, tabletas, dispositivos convergentes, dispositivos de mensajes de texto, audífonos, computadoras y otros dispositivos electrónicos móviles, (ya sea de otra persona o de propiedad de la empresa (TRANSPORTES LOGÍSTICOS Y SERVICIOS DE INGENIERÍA SAS “TLSI SAS”), está prohibido su uso cuando se ejercen labores de control vial.</li>
+                                    <li>Si es necesario realizar una llamada del teléfono móvil en cualquier momento mientras se está en el lugar de control vial deberá realizarlo en los momentos de menor flujo vehicular, ya que estos dispositivos son grandes distractores y ocasionan gran cantidad de accidentes laborales a nivel mundial.</li>
+                                    <li>Si es necesario realizar una llamada del teléfono móvil en cualquier momento mientras se está conduciendo, el conductor deberá entregar el móvil o aparato a su compañera/o. </li>
+                                    <li>Los conductores no llevaran auriculares u otros dispositivos mientras se conduce un vehículo.</li>
+                                </ul>
+                                <p class="text-justify">TRANSPORTES LOGÍSTICOS Y SERVICIOS DE INGENIERÍA SAS “TLSI SAS”. Promoverá el no uso de equipos de comunicación mientras se esté conduciendo un vehículo o cuando se realizan labores de controlador vial, concientizando a los trabajadores en que este tipo de acciones podrían dar lugar a posibles incidentes y accidentes de trabajo. Cumpliendo así con la política establecida por la empresa y el código nacional de tránsito.</p>
                                 <button class="btn btn-primary btn-green" data-dismiss="modal" type="button">
                                 <i class="fas fa-times"></i>
                                 Cerrar</button>
