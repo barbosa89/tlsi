@@ -60,7 +60,7 @@
     <header class="masthead">
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">¡Bienvenidos a TSLI!</div>
+                <div class="intro-lead-in">¡Bienvenidos a {{ config('app.name') }}!</div>
                 <div class="intro-heading text-uppercase">Logística segura</div>
                 <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Conoce más</a>
             </div>
